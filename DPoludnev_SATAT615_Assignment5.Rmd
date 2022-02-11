@@ -1,0 +1,42 @@
+---
+title: "DPoludnev_STAT615_HW5"
+author: "DPoludnev"
+date: "2/10/2022"
+output: html_document
+---
+
+1. (based on p. 93: 2.18) For conducting statistical tests concerning the parameter 𝛽1, why is the
+𝑡-test more versatile than the 𝐹-test (think about what can be tested and be concluded based
+on each test)?
+```{r}
+#The F test is used for comparing two standard deviations and variability while t test can be a normal t test and paired t test. While F test checks for variability, the t test can have alternative hypothesis of less or greater than, also t test can be used to for one-sided alternative hypothesis making it more versatile than the F test.
+```
+2. (based on p. 93: 2.19) When testing 𝐻0: 𝛽1 = 0 versus 𝐻𝐴: 𝛽1 ≠ 0 , why is the 𝐹-test a onesided test even though 𝐻𝐴includes both cases 𝛽1 < 0 and 𝛽1 > 0?
+```{r}
+#The F test is based on ratio and if it is closer to one the null hypothesis is true, if it is more than one then it proves both B1 > 0 and B1 < 0.
+```
+
+(based on p. 91: 2.10) For each of the following questions, explain whether a confidence interval for a mean
+response or a prediction interval for a new observation is appropriate.
+a) What will be the humidity level in this greenhouse tomorrow when we set the temperature level at
+31oC?
+```{r}
+
+```
+b) How much do families whose disposable income is $23,500 spend, on the average, for meals away
+from home?
+```{r}
+
+```
+c) How many kilowatt-hours of electricity will be consumed next month by commercial and industrial
+users in the Twin Cities service area, given that the index of business activity for the area remains at
+its present level?
+```{r}
+
+
+```
+4. (based on p. 91: 2.11) Is there a difference between the “mean response at 𝑋 = 𝑋ℎ” and the “mean of m
+new observations at 𝑋 = 𝑋ℎ”? Why or why not? Please justify your answer.
+```{r}
+
+```
